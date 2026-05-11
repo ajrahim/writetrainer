@@ -1,0 +1,7 @@
+- Project: Write Trainer, a Next.js 15 App Router app for GRE Analytical Writing practice.
+- Stack: React, TypeScript, Tailwind CSS, lucide-react, localStorage persistence, server-side `/api/review`, no backend database.
+- Keep UI changes minimal, academic, clean, accessible, and responsive.
+- Core files live in `src/app`, `src/components`, `src/data`, `src/lib`, and `src/types`.
+- AI provider keys and model names belong in `.env.local`; keep keys server-side and documented in `.env.example`.
+- Run `npm run lint` and `npm run build` after meaningful code changes.
+- Use `src/lib/aiReviews.ts` for ChatGPT, Claude, and Gemini orchestration; keep `src/lib/scoring.ts` as the local fallback scorer.

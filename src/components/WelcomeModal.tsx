@@ -148,9 +148,9 @@ export function WelcomeModal({ isOpen, onStart }: WelcomeModalProps) {
               id="welcome-description"
               className="mx-auto mt-5 max-w-2xl text-sm leading-6 text-slate-700 sm:text-base"
             >
-              Write Trainer is a GRE® writing practice tool that helps you feel
-              more prepared for the essay portion of the exam, one focused
-              draft at a time.
+              Write Trainer is an unofficial GRE® writing practice tool that
+              helps you feel more prepared for the essay portion of the exam,
+              one focused draft at a time.
             </p>
           </div>
 
